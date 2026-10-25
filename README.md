@@ -3,10 +3,10 @@
 <table>
   <tr>
     <td>
-      <img src="./images/NTPClockD1-OUT.jpg" alt="외부 사진" style="max-width: 300px; width: 100%;">
+      <img src="./images/NTPClockD1-OUT.jpg" alt="외부 사진" width="300">
     </td>
     <td>
-      <img src="./images/NTPClockD1-IN.jpg" alt="내부 사진" style="max-width: 300px; width: 100%;">
+      <img src="./images/NTPClockD1-IN.jpg" alt="내부 사진" width="300">
     </td>
   </tr>
 </table>
@@ -29,7 +29,7 @@ Wemos D1 Mini 보드에서 NTP 서버의 시간을 수신하여 TM-1637 디스�
 
 ## 결선도
 
-<img src="./images/NTPClockD1-Circuit.png" alt="결선도" style="max-width: 500px; width: 100%;">
+<img src="./images/NTPClockD1-Circuit.png" alt="결선도" width="500">
 
 
 ## 동작 설명
@@ -44,6 +44,6 @@ https://github.com/user-attachments/assets/23bcee39-a3a5-4792-965c-6e132f399a57
 
 ## 전원 공급 방법
 
-<img src="./images/USB-C-Connector.jpg" alt="전원케이블" style="max-width: 300px; width: 100%;">
+<img src="./images/USB-C-Connector.jpg" alt="전원케이블" width="300">
 
 Wemos D1 Mini 보드에는 아두이노와 달리 Vin 단자가 없다. 5V나 3.3V 단자로 전원을 공급할 수는 있지만 레귤레이터가 안 달려있어서 별로 좋은 선택은 아닌 듯했다. 그래서 USB C타입 소켓과 플러그를 납땜해서 내부 전원 케이블을 만들었다. 4핀이라 데이터 전송도 되기 때문에 조립된 상태에서도 코드를 수정할 수 있다는 장점도 있다.
