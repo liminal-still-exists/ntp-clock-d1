@@ -34,7 +34,7 @@ Wemos D1 Mini 보드에서 NTP 서버의 시간을 수신하여 TM-1637 디스�
 
 ## 동작 설명
 
-![작동 영상](https://github.com/user-attachments/assets/23bcee39-a3a5-4792-965c-6e132f399a57)
+https://github.com/user-attachments/assets/23bcee39-a3a5-4792-965c-6e132f399a57
 
 1) 전원을 켜면 화면에 Connect를 뜻하는 Conn이라는 글자가 표시되고 와이파이 접속을 시도한다
 
